@@ -1,0 +1,136 @@
+body {
+ background-color: ghostwhite;
+  }
+h1
+{
+    background-color: beige;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 25pt;
+    color: rebeccapurple;
+}
+p
+{
+    background-color: aliceblue;
+    font-size: 25pt;
+    font-style: italic;
+}
+h3
+{
+    background-color: lightcyan;
+    color:cadetblue ;
+    font-size: 20pt;
+}
+li
+{
+    background-color: beige;
+    color: rebeccapurple;
+    font-size: 10pt;
+    font-style: oblique;
+}
+table
+{
+    background-color: beige;
+    color: rebeccapurple;
+    font-size:13pt ;
+}
+th
+{
+    background-color:bisque;
+    color: rebeccapurple;
+}
+a 
+{
+    background-color: blanchedalmond;
+    color: rebeccapurple;
+    font-style: italic ;
+    font-size: 10pt;
+}
+hr
+{
+    background-color: beige;
+}
+h2
+{
+    background-color: beige;
+    text-align: center;
+    font-size: 35pt;
+
+}
+label
+{
+    background-color: bisque;
+    font-size: 20pt;
+
+}
+input
+{
+    background-color: aliceblue;
+    font-size: 20pt;
+}
+textarea
+{
+    background-color: aliceblue;
+    font-style: italic;
+    font-size: 30pt;
+}
+body
+{
+    background-size: cover;
+    background-position: center;
+}
+h3
+{
+    background-color: beige;
+    text-align: center;
+    font-size: 30pt;
+}
+li
+{
+    background-color: beige;
+    text-align: center;
+    font-size: 35pt;
+}
+a 
+{
+    background-color: beige;
+    text-align: center;
+    font-size: 35pt;
+}
+* 
+{
+    margin:  0;
+    padding:  0;
+    font-family:sans-serif;
+}
+.contatainer
+{
+    height: 50vh;
+    width: 100%;
+    background-image: url(images/headphone.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.content
+{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+.left-col
+{
+    font-size:  90%;
+    color: greenyellow;
+    line-height: 110px;
+    float: left;
+}
+.right-col
+{
+    float: right;
+    margin right: 50%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
