@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Music</title>
+<link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+	<div class ="contatainer">
+		<div class="navbar"> 
+		<img src="images/headphone.jpg">
+		<ul>
+			 <li><a href="#" Home></a></li>
+			 <li><a href="#" About></a></li>
+		</ul>
+	</div>
+	<div class="content">
+		<div class="left-col">
+			<h1>THE<br> REAL<br> SOUND</h1>
+	</div><br>
+	<div class="right-col"></div>
+		<p>Click Here To Listen</p>
+		<img src="images/media.jfif" id="icon">
+	</div>
+</div>
+
+</div>
+<audio id="mySong" >
+	<source src="images/NIKI - lowkey (Lyrics).mp3" type="audio/mp3">
+</audio>
+
+<script>
+var mySong = document.getElementById("mySong");
+var icon = documment.getElementById("icon");
+
+	icon.onclick = function(){
+		mySong.play();
+	}
+</script>
+
+</body>
+</html>
